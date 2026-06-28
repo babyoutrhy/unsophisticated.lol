@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/visits",
+      "destination": "https://api.counterapi.dev/v1/unsophisticated_lol/visits/up"
+    },
+    {
+      "source": "/api/lyrics",
+      "destination": "https://lyrics-api.unsophisticated.lol/api/lyrics"
+    }
+  ]
+}
