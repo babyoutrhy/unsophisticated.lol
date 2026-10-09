@@ -1140,3 +1140,44 @@ body::after {
         transform: translateX(0);
     }
 }
+
+
+.visitor-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 10px;
+    margin-bottom: 0.45rem;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: #999999;
+    font-size: 0.72rem;
+    font-family: inherit;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.02em;
+    user-select: none;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
+.visitor-badge:hover {
+    color: #e0e0e0;
+    border-color: rgba(192, 192, 192, 0.35);
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 0 12px rgba(192, 192, 192, 0.08);
+}
+
+.visitor-badge .visitor-icon {
+    width: 13px;
+    height: 13px;
+    stroke: currentColor;
+    opacity: 0.85;
+    flex-shrink: 0;
+}
+
+.visitor-badge .visitor-count {
+    color: #d4d4d4;
+    font-weight: 600;
+}
